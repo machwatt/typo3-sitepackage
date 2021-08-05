@@ -1,14 +1,11 @@
-######################
-#### DEPENDENCIES ####
-######################
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/setup.typoscript">
+// Dependencies
+@import 'EXT:fluid_styled_content/Configuration/TypoScript/setup.typoscript'
 
+// Extend dependencies
+@import 'EXT:jk_sitepackage/Configuration/TypoScript/ttContent.typoscript'
 
-################
-#### HELPER ####
-################
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:jk_sitepackage/Configuration/TypoScript/Helper/DynamicContent.typoscript">
-
+// Helper
+@import 'EXT:jk_sitepackage/Configuration/TypoScript/Helper/DynamicContent.typoscript'
 
 ##############
 #### PAGE ####

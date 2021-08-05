@@ -1,0 +1,20 @@
+lib.contentElement {
+    templateRootPaths.10 = EXT:jk_sitepackage/Resources/Private/Templates/ContentElements/
+    partialRootPaths.10 = EXT:jk_sitepackage/Resources/Private/Partials/ContentElements/
+    layoutRootPaths.10 = EXT:jk_sitepackage/Resources/Private/Layouts/ContentElements/
+}
+
+tt_content {
+    jk_sitepackage_textimage =< lib.contentElement
+    jk_sitepackage_textimage {
+        templateName = TextImage.html
+        dataProcessing {
+            11 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+            11 {
+                references.fieldName = image
+                references.table = tt_content
+                as = images
+            }
+        }
+    }
+}
