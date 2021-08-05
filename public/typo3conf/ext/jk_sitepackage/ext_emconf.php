@@ -9,9 +9,9 @@ $EM_CONF[$_EXTKEY] = [
     'category' => 'templates',
     'constraints' => [
         'depends' => [
-            'typo3' => '{% if package.typo3version < 9000000 %}8.7.0-8.7.99{% elseif package.typo3version < 10000000 %}9.5.0-9.5.99{% else %}10.2.0-10.4.99{% endif %}',
-            'fluid_styled_content' => '{% if package.typo3version < 9000000 %}8.7.0-8.7.99{% elseif package.typo3version < 10000000 %}9.5.0-9.5.99{% else %}10.2.0-10.4.99{% endif %}',
-            'rte_ckeditor' => '{% if package.typo3version < 9000000 %}8.7.0-8.7.99{% elseif package.typo3version < 10000000 %}9.5.0-9.5.99{% else %}10.2.0-10.4.99{% endif %}',
+            'typo3' => '11.3.0-11.5.99',
+            'fluid_styled_content' => '11.3.0-11.5.99',
+            'rte_ckeditor' => '11.3.0-11.5.99',
         ],
         'conflicts' => [
         ],
