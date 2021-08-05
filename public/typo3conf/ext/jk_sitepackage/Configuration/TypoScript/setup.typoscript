@@ -201,3 +201,13 @@ config {
     concatenateJs = 0
     concatenateCss = 0
 }
+
+config.additionalHeaders {
+    900.header = Strict-Transport-Security: max-age=10886400; includeSubDomains
+    910.header = X-Frame-Options: SAMEORIGIN
+    920.header = X-Xss-Protection: 1; mode=block
+    930.header = Referrer-Policy: strict-origin-when-cross-origin
+    940.header = feature-policy: vibrate 'none'; geolocation 'none'; vr 'none'; payment 'none'; midi 'none'; microphone 'none'; fullscreen 'none'; camera 'none'; autoplay 'none'
+
+    #950.header = Content-Security-Policy: default-src 'self'; object-src data:; frame-src 'self' www.youtube-nocookie.com; font-src 'self' data:; img-src 'self'; connect-src 'self'; script-src 'self'; style-src 'self';
+}

@@ -1,0 +1,13 @@
+mod.wizards.newContentElement.wizardItems.common {
+    elements {
+        jk_sitepackage_textimage {
+            iconIdentifier = content-beside-text-img-centered-right
+            title = LLL:EXT:jk_sitepackage/Resources/Private/Language/locallang.xlf:jk_sitepackage_textimage.wizard.title
+            description = LLL:EXT:jk_sitepackage/Resources/Private/Language/locallang.xlf:jk_sitepackage_textimage.wizard.description
+            tt_content_defValues {
+                CType = jk_sitepackage_textimage
+            }
+        }
+    }
+    show := addToList(jk_sitepackage_textimage)
+}

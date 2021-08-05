@@ -6,6 +6,12 @@
             <authorEmail>info@joerankurschatke.de</authorEmail>
         </header>
         <body>
+            <trans-unit id="jk_sitepackage_textimage.wizard.title">
+            <source>Text-Bild-Element</source>
+        </trans-unit>
+            <trans-unit id="jk_sitepackage_textimage.wizard.description">
+                <source>Ein Text und ein Bild.</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>
