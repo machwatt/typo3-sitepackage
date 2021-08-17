@@ -100,9 +100,9 @@ TCEFORM {
             removeItems = 0,1,2,3,4,5,6,7,8,9,10
         }
 
-        subheader.types.jksitepackage_textimage.disabled = 0
-        linkToTop.types.jksitepackage_textimage.disabled = 0
-        layout.types.jksitepackage_textimage {
+        subheader.types.jk_sitepackage_textimage.disabled = 0
+        linkToTop.types.jk_sitepackage_textimage.disabled = 0
+        layout.types.jk_sitepackage_textimage {
             altLabels {
                 0 = Text links, Bild rechts
                 1 = Bild links, Text rechts
