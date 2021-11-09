@@ -188,6 +188,8 @@ config {
     index_externals = 1
     index_metatags = 1
     headerComment = {$config.headerComment}
+    pageTitleSeparator = –
+    pageTitleSeparator.noTrimWrap = | | |
 
     // Disable Image Upscaling
     noScaleUp = 1
