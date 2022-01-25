@@ -38,7 +38,9 @@
 	"scripts":{
 		"typo3-cms-scripts": [
 			"typo3cms install:generatepackagestates",
-			"typo3cms install:fixfolderstructure"
+			"typo3cms install:fixfolderstructure",
+			"typo3cms install:extensionsetupifpossible",
+			"typo3cms language:update de"
 		],
 		"post-autoload-dump": [
 			"@typo3-cms-scripts"
